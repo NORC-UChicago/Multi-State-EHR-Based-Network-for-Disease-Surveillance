@@ -1,0 +1,44 @@
+                                   Sample-size checker results (factor x cell counts)                                   
+
+
+  Obs                factor                     values1  values2  COUNT                                                                                       checker_results
+-----  --------------------  --------------------------  -------  -----  ----------------------------------------------------------------------------------------------------
+    1  age8                  20-24                                    3  sample size is insufficient
+    2  age8                  25-29                                    2  sample size is insufficient
+    3  age8                  35-44                                    4  sample size is insufficient
+    4  age8                  45-54                                    3  sample size is insufficient
+    5  age8                  55-64                                    3  sample size is insufficient
+    6  age8                  65-74                                    3  sample size is insufficient
+    7  age8                  75-84                                    2  sample size is insufficient
+    8  raceeth4              Black                                    5  sample size is insufficient
+    9  raceeth4              Other                                    4  sample size is insufficient
+   10  raceeth4              White                                   11  sample size is insufficient
+   11  ru2                   Mostly or completely rural               4  sample size is insufficient
+   12  ru2                   Mostly urban                            16  sample size is insufficient
+   13  region                1                                        6  sample size is insufficient
+   14  region                2                                        5  sample size is insufficient
+   15  region                3                                        5  sample size is insufficient
+   16  region                4                                        4  sample size is insufficient
+   17  age3, sex             20-44                       Female       4  sample size is insufficient
+   18  age3, sex             20-44                       Male         5  sample size is insufficient
+   19  age3, sex             45-64                       Female       3  sample size is insufficient
+   20  age3, sex             45-64                       Male         3  sample size is insufficient
+   21  age3, sex             65-84                       Female       3  sample size is insufficient
+   22  age3, sex             65-84                       Male         2  sample size is insufficient
+   23  raceeth4, sex         Black                       Female       5  sample size is insufficient
+   24  raceeth4, sex         Other                       Female       3  sample size is insufficient
+   25  raceeth4, sex         Other                       Male         1  sample size is insufficient
+   26  raceeth4, sex         White                       Female       2  sample size is insufficient
+   27  raceeth4, sex         White                       Male         9  sample size is insufficient
+   28  insurance2, age3      Medicaid                    20-44        3  sample size is insufficient
+   29  insurance2, age3      Medicaid                    45-64        2  sample size is insufficient
+   30  insurance2, age3      Medicaid                    65-84        1  sample size is insufficient
+   31  insurance2, age3      Other                       20-44        6  sample size is insufficient
+   32  insurance2, age3      Other                       45-64        4  sample size is insufficient
+   33  insurance2, age3      Other                       65-84        4  sample size is insufficient
+   34  insurance2, raceeth4  Medicaid                    Black        3  sample size is insufficient
+   35  insurance2, raceeth4  Medicaid                    Other        1  sample size is insufficient
+   36  insurance2, raceeth4  Medicaid                    White        2  sample size is insufficient
+   37  insurance2, raceeth4  Other                       Black        2  sample size is insufficient
+   38  insurance2, raceeth4  Other                       Other        3  sample size is insufficient
+   39  insurance2, raceeth4  Other                       White        9  sample size is insufficient

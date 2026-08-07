@@ -1,0 +1,54 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA select_files
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote select_files (20 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: Output dataset geo_age8 has 7 observations and 2 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset geo_raceeth4 has 3 observations and 2 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset geo_ru2 has 2 observations and 2 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset geo_region has 4 observations and 2 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset geo_age3_sex has 6 observations and 3 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset geo_raceeth4_sex has 5 observations and 3 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset geo_insurance2_age3 has 6 observations and 3 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset geo_insurance2_raceeth4 has 6 observations and 3 variables.
+NOTE: PROC FREQ statement used.
+NOTE: DATA geo_freq
+
+
+NOTE: Read 7 rows from geo_age8.
+NOTE: Read 10 rows from geo_raceeth4.
+NOTE: Read 12 rows from geo_ru2.
+NOTE: Read 16 rows from geo_region.
+NOTE: Read 22 rows from geo_age3_sex.
+NOTE: Read 27 rows from geo_raceeth4_sex.
+NOTE: Read 33 rows from geo_insurance2_age3.
+NOTE: Read 39 rows from geo_insurance2_raceeth4.
+NOTE: Wrote geo_freq (39 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Sample-size checker results (factor x cell counts).
+NOTE: PROC PRINT data=geo_freq
+
+NOTE: PROC PRINT completed: 39 observations printed, 5 variables

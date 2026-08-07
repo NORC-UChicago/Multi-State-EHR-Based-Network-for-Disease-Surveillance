@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_state_direct_estimates",
+  "source_file": "4_Small_Area_Estimation/State_Direct_Estimates.sas",
+  "source_blob_sha": "1991e51f350ac598489a8ccb510eddedc56bcace",
+  "source_commit": "67f0b2080a76a6674ec132b4fe0114129aba1d6a",
+  "notes": "Repo's %report macro (weighted PROC FREQ with outpct for crude/modeled HTN prevalence, PROC SUMMARY with CV, and the closed-form SE = 100*sqrt(p(1-p)/n)). Only the input line changed: 'set weights.&ext' (a P: libname) now reads a WORK dataset of the same shape (aa_seq rakewgt zip state state_fips pph htnyn htnc). Synthetic 20-row weights extract + small state_fips crosswalk substituted for the sensitive source; the trailing PROC EXPORT to a P: path is outside the macro and omitted."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_checkfreq_macro",
+  "source_file": "2_Weighting/2_0_quickstart_MENDS_weighting.sas",
+  "source_blob_sha": "236a7f635d26d8a4a0f97b04f33df697b901b6f4",
+  "source_commit": "67f0b2080a76a6674ec132b4fe0114129aba1d6a",
+  "notes": "Repo's %checkfreq / %checkfreq2 sample-size-check macros (verbatim), called on the same factor set (age8, raceeth4, ru2, region, and the age3*sex / raceeth4*sex / insurance2*age3 / insurance2*raceeth4 crosses) and stacked with the pipeline's 'count<20 -> insufficient' rule from %weights_national(). A 20-row synthetic analysis extract stands in for the P: libname EHR file; pipe-delimited datalines so the ru2 category keeps its embedded space."
+}

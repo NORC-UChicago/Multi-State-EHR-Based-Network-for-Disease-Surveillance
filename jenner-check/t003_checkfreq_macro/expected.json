@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-10T13:19:00.406872+00:00",
+  "_captured_run_id": "r_47f062a743784a418f4f8cdf23823135",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote select_files (20 rows, 7 columns).",
+    "NOTE: Output dataset geo_age8 has 7 observations and 2 variables.",
+    "NOTE: Output dataset geo_ru2 has 2 observations and 2 variables.",
+    "NOTE: Wrote geo_freq (39 rows, 5 columns).",
+    "NOTE: PROC FREQ statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,163 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA crosswalk
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote crosswalk (4 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=crosswalk
+
+NOTE: Read 4 rows from crosswalk.
+NOTE: Wrote crosswalk (4 rows, 2 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA mends_weights
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote mends_weights (20 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA state_weights
+
+
+NOTE: Read 20 rows from mends_weights.
+NOTE: Wrote state_weights (20 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_pph_htnyn.spec.json
+NOTE: ODS plot written: freq_mosaic_htnyn_htnc.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset model1 has 8 observations and 4 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset model2 has 8 observations and 4 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset crude1 has 8 observations and 4 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset crude2 has 8 observations and 4 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC MEANS
+NOTE: Output dataset samp1 has 4 observations and 6 variables.
+NOTE: PROC MEANS statement used.
+NOTE: DATA samp1a
+
+
+NOTE: Read 4 rows from samp1.
+NOTE: Read 8 rows from samp1.
+NOTE: Wrote samp1a (8 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: Output dataset samp2 has 4 observations and 6 variables.
+NOTE: PROC MEANS statement used.
+NOTE: DATA samp2a
+
+
+NOTE: Read 4 rows from samp2.
+NOTE: Read 8 rows from samp2.
+NOTE: Wrote samp2a (8 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Stream 1 processed 1 rows, max BY-group size: 0 (O(1) memory verified)
+NOTE: Stream 2 processed 1 rows, max BY-group size: 0 (O(1) memory verified)
+NOTE: DATA htnyn
+
+
+NOTE: Read 8 rows from crude1.
+NOTE: Read 8 rows from model1.
+NOTE: Wrote htnyn (8 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Stream 1 processed 1 rows, max BY-group size: 0 (O(1) memory verified)
+NOTE: Stream 2 processed 1 rows, max BY-group size: 0 (O(1) memory verified)
+NOTE: DATA htnc
+
+
+NOTE: Read 8 rows from crude2.
+NOTE: Read 8 rows from model2.
+NOTE: Wrote htnc (8 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=htnyn
+
+NOTE: Read 8 rows from htnyn.
+NOTE: Wrote htnyn (8 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=samp1a
+
+NOTE: Read 8 rows from samp1a.
+NOTE: Wrote samp1a (8 rows, 8 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA htnyn
+
+NOTE: Stream 1 processed 8 rows, max BY-group size: 1 (O(1) memory verified)
+NOTE: Stream 2 processed 8 rows, max BY-group size: 1 (O(1) memory verified)
+
+NOTE: Wrote htnyn (8 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=htnc
+
+NOTE: Read 8 rows from htnc.
+NOTE: Wrote htnc (8 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=samp2a
+
+NOTE: Read 8 rows from samp2a.
+NOTE: Wrote samp2a (8 rows, 8 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA htnc
+
+NOTE: Stream 1 processed 8 rows, max BY-group size: 1 (O(1) memory verified)
+NOTE: Stream 2 processed 8 rows, max BY-group size: 1 (O(1) memory verified)
+
+NOTE: Wrote htnc (8 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA jan_2023
+
+
+NOTE: Read 8 rows from htnyn.
+NOTE: Read 16 rows from htnc.
+NOTE: Wrote jan_2023 (16 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=jan_2023
+
+NOTE: Read 16 rows from jan_2023.
+NOTE: Wrote jan_2023 (16 rows, 10 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA jan_2023
+
+NOTE: Stream 1 processed 16 rows, max BY-group size: 4 (O(1) memory verified)
+NOTE: Stream 2 processed 4 rows, max BY-group size: 1 (O(1) memory verified)
+
+NOTE: Wrote jan_2023 (16 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=jan_2023
+
+NOTE: Read 16 rows from jan_2023.
+NOTE: Wrote jan_2023 (16 rows, 11 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.

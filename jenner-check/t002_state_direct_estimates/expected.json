@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-10T13:16:14.269890+00:00",
+  "_captured_run_id": "r_dc7ba1029826495aa4ffba5f3faad45c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote mends_weights (20 rows, 8 columns).",
+    "NOTE: Wrote state_weights (20 rows, 9 columns).",
+    "NOTE: Wrote jan_2023 (16 rows, 11 columns).",
+    "NOTE: PROC FREQ statement used.",
+    "NOTE: PROC SORT statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
